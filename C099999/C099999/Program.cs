@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace C099999
 {
-    class Program
+     class Orange
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-        }
-    }
+            var numbers = new List<int> { 1, 2, 3, 4, 5, 6 }
+            var smallests = GetSmallests(numbers, 3);
 
-    class Orange
-    {
+            foreach (var number in smallests)
+                Console.WriteLine(number);
+        }
         public static List<int> GetSmallests(List<int> list, int count)
         {
             var smallests = new List<int>();
