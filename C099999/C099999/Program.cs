@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C099999
 {
-     class Orange
+    class Orange
     {
         public static void Main()
         {
@@ -39,9 +39,10 @@ namespace C099999
                 if (list[i] > min)
                 {
                     min = list[i];
-                }  
+                }
             }
 
             return min;
         }
+    }
 }
